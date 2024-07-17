@@ -9,7 +9,7 @@ const app = express();
 const server = http.createServer(app);
 const io = socket(server, {
     cors: {
-      origin: "http://localhost:5173"
+      origin: "https://fun-chat-client.vercel.app/"
     }
   }); 
 
